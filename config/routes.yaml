@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app_generator:
+  path: /generator
+  methods: [ 'GET' ]
+  controller: App\Controller\GeneratorController::getPage
