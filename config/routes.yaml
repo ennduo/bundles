@@ -3,6 +3,6 @@
 #    controller: App\Controller\DefaultController::index
 
 app_generator:
-  path: /generator
+  path: /test
   methods: [ 'GET' ]
-  controller: App\Controller\GeneratorController::getPage
+  controller: App\Controller\TestController::testPage

@@ -1,0 +1,16 @@
+dynamic_form:
+  new_user:
+    first_name:
+      enabled: true
+      type: text
+      options:
+        type: password
+        required: true
+      transformer:
+  test_new_user:
+    birthday:
+      enabled: true
+      type: birthday
+      options:
+        minAgeAllowed: 5
+        maxAgeAllowed: 10
